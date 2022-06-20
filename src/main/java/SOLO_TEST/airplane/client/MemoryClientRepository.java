@@ -8,7 +8,7 @@ import java.util.Map;
  * 회원을 저장하는 곳
  */
 
-public class ClientRepositoryImpl implements ClientRepository{
+public class MemoryClientRepository implements ClientRepository{
 
     private static Map<Long, Client> store = new HashMap<>();
 
